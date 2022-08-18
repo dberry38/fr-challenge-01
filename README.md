@@ -5,7 +5,9 @@ Repo for first bootcamp feature request challenge
 This webpage represents the submission of work to the first bootcamp challenge.
 
 # Screenshot
-<img src="./assets/images/Horiseon webpage screenshot.png">
+<img src="./assets/images/screenshot 1.png">
+<img src="./assets/images/screenshot 2.png">
+<img src="./assets/images/screenshot 3.png">
 
 # Installation
 N/A
