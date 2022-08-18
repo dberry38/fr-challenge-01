@@ -1,3 +1,4 @@
+/* CONSOLIDATE */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -89,7 +90,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -97,14 +98,16 @@ p {
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-cost {
+.benefit-cost, .benefit-lead, .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* consolidated three elements to one. */
 
-.benefit-lead h3 {
+
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -112,14 +115,16 @@ p {
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-cost h3 {
+.benefit-cost h3, .benefit-lead h3, .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* consolidated three elements to one. */
 
-.benefit-lead img {
+
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -129,15 +134,17 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.benefit-cost img {
+.benefit-cost img, .benefit-lead img, .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* consolidated three elements to one */
 
-.search-engine-optimization {
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,9 +160,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.social-media-marketing {
+.social-media-marketing, .online-reputation-management, .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,8 +170,10 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* consolidated .content element from three to one. */
 
-.search-engine-optimization img {
+
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -174,9 +183,14 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.content img {
+    max-height: 200px;
+}
+/* Consolidated three separate css elements into one for max-height. */
+
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -189,7 +203,13 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+} */
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+/* consolidated three elements into one for h2 margin and font size. */
 
 .footer {
     padding: 30px;
@@ -198,6 +218,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
